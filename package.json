@@ -1,0 +1,32 @@
+{
+  "name": "elastic-quota-management",
+  "version": "2.0.0",
+  "description": "A simple demonstration of the rest-hapi plugin.",
+  "main": "api.js",
+  "scripts": {
+    "test": "lab -v **/*.test.js",
+    "start": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKHeadley/rest-hapi-demo.git"
+  },
+  "keywords": [
+    "quota"
+  ],
+  "author": "jetspeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JKHeadley/rest-hapi-demo/issues"
+  },
+  "homepage": "https://github.com/JKHeadley/rest-hapi-demo#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "env2": "^2.2.2",
+    "rest-hapi": "latest"
+  },
+  "devDependencies": {
+    "@hapi/code": "^9.0.3",
+    "@hapi/lab": "^26.0.0"
+  }
+}

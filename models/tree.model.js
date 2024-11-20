@@ -1,7 +1,7 @@
 const RestHapi = require('rest-hapi')
 
 module.exports = function(mongoose) {
-  const modelName = 'quota'
+  const modelName = 'tree'
   const Types = mongoose.Schema.Types
   const Schema = new mongoose.Schema({
     tree: {
@@ -12,22 +12,9 @@ module.exports = function(mongoose) {
       type: Types.String,
       required: true
     },
-    business_id: {
-      type: Types.String,
-      required: true,
-      unique: true
-    },
-    amt: {
-      type: Types.Number
-    },
-    currency: {
-      type: Types.String
-    },
-    available: {
-      type: Types.Number
-    },
-    status:{
-      type: Types.String
+    ancestors:{
+      type: Types.Mixed,
+      required: true
     }
   })
 
@@ -40,7 +27,7 @@ module.exports = function(mongoose) {
       create: {
 
       }
-    },
+    }
   }
 
   return Schema

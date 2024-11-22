@@ -1,9 +1,5 @@
-# rest-hapi-demo
-A simple demonstration of the [rest-hapi](https://github.com/JKHeadley/rest-hapi) plugin.
-
-![rest-hapi-demo-alt-optimized](https://user-images.githubusercontent.com/12631935/41813206-0d2298a0-76e6-11e8-95d4-9b1e521c179e.gif)
-
-(**NOTE:** For an alternative quick start, check out his [awesome yeoman generator](https://github.com/vinaybedre/generator-resthapi) for rest-hapi.)
+# Elastic Quota Management
+Simple quota management by a quota tree abastraction.
 
 ## Requirements
 
@@ -13,7 +9,7 @@ You need [Node.js](https://nodejs.org/en/) installed and you'll need [MongoDB](h
 
 clone the repo
 ```
-$ git clone https://github.com/JKHeadley/rest-hapi-demo.git
+$ git clone https://github.com/wasacoder/eqm.git
 ```
 
 install the dependencies

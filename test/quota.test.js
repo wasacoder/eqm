@@ -20,6 +20,10 @@ describe('Quota Request', () => {
     //await server.stop();
 
   });
+  after(async () => {
+    await server.stop();
+  });
+
 
   it('responds with 200', async () => {
     const res = await server.inject({
